@@ -1,5 +1,5 @@
 #converting vdi or any other format
-´´´Bash
+```Bash
 qemu-img convert -f vdi -O qcow2 vm-tp-linux.vdi vm-tp-linux.qcow2
 qm importdisk 1000 /var/lib/vz/template/iso/image.qcow2 local-lv
-´´´
+```
